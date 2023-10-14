@@ -1,10 +1,14 @@
 "use client"; // Because we're inside a server component
-import React, { createContext, useState, useContext } from 'react';
+import React, { createContext, useState, useContext, ReactNode  } from 'react';
 
 type DataType = {
     id: string;
     name: string;
     email: string;
+}
+interface Props {
+    children?: ReactNode
+    // any props that come into the component
 }
 interface AppContextInterface {
     state: DataType[];
@@ -17,7 +21,7 @@ interface AppContextInterface {
  }
  );
 // Create a provider component
- export const AppProvider = ({ children }) => {
+ export const AppProvider = ({children}: Props) => {
     const [state, setState] = useState<[]|DataType[]>([]);
     // Define any functions or values you want to provide
     const value = {
