@@ -6,9 +6,7 @@ import Head from "next/head";
 //type Breeds = []
 
 
-export default function Home({ breeds = [] }) {
-
-
+export default function Home() {
   return (
     <div className="c1">
       <Head>
