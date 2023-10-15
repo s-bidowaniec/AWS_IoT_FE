@@ -35,3 +35,9 @@ path: https://main.d1tqalondppv40.amplifyapp.com/
 
 Deploy a Server-Side Rendered Next.js application on AWS
 https://catalog.us-east-1.prod.workshops.aws/workshops/36375ad5-9091-4960-97dd-e82eb516f2c3/en-US/introduction
+
+MQTT conection
+https://advancedweb.hu/how-to-connect-to-aws-iot-core-with-mqtt-js/
+
+Server actions
+https://nextjs.org/docs/app/api-reference/functions/server-actions
