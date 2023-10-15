@@ -1,3 +1,4 @@
+import TestAwsIoT from "@/components/AwsIoT";
 import TestFetch from "@/components/TestFetch";
 /* pages/index.js */
 import Head from "next/head";
@@ -18,6 +19,8 @@ export default function Home() {
         <h1 className="text-3xl">Amplify Hosting Test App</h1>
         <br />
         <TestFetch></TestFetch>
+        <br />
+        <TestAwsIoT></TestAwsIoT>
       </main>
     </div>
   );
