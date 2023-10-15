@@ -28,6 +28,7 @@ client.on("connect", () => {
 
 export async function sendData (data: string)  {
     console.log("Sending Data: " + data);
+    console.log(key);
     client.publish(
         "esp32/sub",
         JSON.stringify({message: data})
