@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awsiotfegreenhouse-dev-213915-authRole",
+      "UnauthRoleArn": "arn:aws:iam::570167469692:role/amplify-awsiotfegreenhouse-dev-213915-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::570167469692:role/amplify-awsiotfegreenhouse-dev-213915-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-awsiotfegreenhouse-dev-213915-deployment",
+      "UnauthRoleName": "amplify-awsiotfegreenhouse-dev-213915-unauthRole",
+      "StackName": "amplify-awsiotfegreenhouse-dev-213915",
+      "StackId": "arn:aws:cloudformation:eu-north-1:570167469692:stack/amplify-awsiotfegreenhouse-dev-213915/dc3e6170-6d24-11ee-80f6-0a500ed7d264",
+      "AmplifyAppId": "d148pj6wzovge5"
+    },
+    "categories": {
+      "auth": {
+        "awsiotfegreenhousefcf895ac": {},
+        "userPoolGroups": {}
+      }
+    }
+  }
+}

@@ -2,6 +2,7 @@
 import {connect} from "mqtt";
 import { IClientOptions } from "mqtt";
 import {key, cert, ca} from '../secrets'
+
 const opt: IClientOptions = {
     host: 'a20qde0bl0ime-ats.iot.eu-north-1.amazonaws.com',
     protocol: "mqtt",
@@ -28,7 +29,6 @@ client.on("connect", () => {
 
 export async function sendData (data: string)  {
     console.log("Sending Data: " + data);
-    console.log(key);
     client.publish(
         "esp32/sub",
         JSON.stringify({message: data})
