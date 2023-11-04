@@ -1,5 +1,7 @@
+
 import TestAwsIoT from "@/components/AwsIoT";
 import TestFetch from "@/components/TestFetch";
+
 /* pages/index.js */
 import Head from "next/head";
 //import type { InferGetServerSidePropsType, GetServerSideProps } from 'next'
@@ -9,6 +11,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
+    
     <div className="c1">
       <Head>
         <title>Amplify Hosting Test</title>
@@ -20,9 +23,11 @@ export default function Home() {
         <br />
         <TestFetch></TestFetch>
         <br />
+        <div>---</div>
         <TestAwsIoT></TestAwsIoT>
+        
       </main>
     </div>
+    
   );
 }
-

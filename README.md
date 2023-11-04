@@ -41,3 +41,6 @@ https://advancedweb.hu/how-to-connect-to-aws-iot-core-with-mqtt-js/
 
 Server actions
 https://nextjs.org/docs/app/api-reference/functions/server-actions
+
+AWS IoT
+https://github.com/aws-samples/aws-end-to-end-iot-amplify-demo
